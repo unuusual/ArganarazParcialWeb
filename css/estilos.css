@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+    padding: 1em;
+}
+
+.contengoDosArticles{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    border: 2px solid black;
+}
+
+.contengoDosArticles .cajaUno{
+    width: calc(20% - 10px);
+    border: 2px solid black;
+    padding: 2em;
+}
+
+.contengoDosArticles .cajaDos{
+    display: flex;
+    justify-content: center;
+    width: calc(50% - 10px);
+    border: 2px solid black;
+    padding: 2em;
+}
+
+.contengoDosArticles .cajaDos button{
+    padding: 0.6em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contengoDosArticles .cajaDos label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.contengoDosArticles .cajaDos input{
+    border-radius: 8px;
+    padding: 0.5em;
+}
+
+.contengoDosArticles .cajaDos button:hover{
+    background-color: grey;
+    color: black;
+    transition: ease-in 0.5s;
+}
+
+.rojo{
+    border: 2px solid crimson;
+}
+
+.rojoText{
+    color: crimson;
+}
+
+.verde{
+    border: 2px solid green;
+}
+
+.verdeText{
+    color: green;
+}
+
+.naranja{
+    border: 2px solid orange;
+}
+
+.naranjaText{
+    color: orange;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    padding: 1em;
+}
+
